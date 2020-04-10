@@ -3,12 +3,14 @@ function Pizza(pizzaSize, pizzaToppings, pizzaType) {
   this.pizzaSize = pizzaSize;
   this.pizzaToppings = pizzaToppings;
   this.pizzaType = pizzaType;
-  this.pizzaCost = 10
+  this.pizzaCost = 0
 }
 //Function will adjust cost based on user input
 Pizza.prototype.costAdjust = function() {
-  var cost = 10;
-  if (this.pizzaSize === "large") {
+  var cost = 0;
+  if (this.pizzaSize === "small") {
+    cost += 10;
+  } else if (this.pizzaSize === "large") {
     cost += 8;
   } else if (this.pizzaSize === "medium") {
     cost += 4;
@@ -29,6 +31,9 @@ Pizza.prototype.costAdjust = function() {
   }
 }
   this.pizzaCost = cost
+  if (this.pizzaCost === 0) {
+    alert("You have to pick something!");
+  }
    return cost;  
 }
 

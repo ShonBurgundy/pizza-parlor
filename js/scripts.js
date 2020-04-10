@@ -12,7 +12,9 @@ Pizza.prototype.costAdjust = function() {
     this.pizzaCost += 4;
   } //this.pizzaSize === "small" pizzaCost will be standard value
 
-  if (this.pizzaToppings === "veggie") {
+  if (this.pizzaToppings === "type") {
+    this.pizzaCost += 8;
+  } else if (this.pizzaToppings === "veggie") {
     this.pizzaCost += 1;
   } else if (this.pizzaToppings === "meat") {
     this.pizzaCost += 2;

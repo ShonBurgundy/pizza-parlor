@@ -16,6 +16,8 @@ Pizza.prototype.costAdjust = function() {
     this.pizzaCost += 1;
   } else if (this.pizzaToppings === "meat") {
     this.pizzaCost += 2;
+  } else if (this.pizzaToppings === "extra") {
+    this.pizzaCost += 3;
   }
   return this.pizzaCost;  
 }

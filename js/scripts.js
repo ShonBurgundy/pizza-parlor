@@ -22,12 +22,9 @@ Pizza.prototype.costAdjust = function() {
     var topping = this.pizzaToppings[i];
   if (topping === "veggie") {
     cost += 1;
-    console.log(this, cost);
-  } 
-  if (topping === "meat") {
+  } if (topping === "meat") {
     cost += 2;
-  }
-  if (topping === "extra") {
+  } if (topping === "extra") {
     cost += 3;
   }
 }

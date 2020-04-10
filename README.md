@@ -8,17 +8,17 @@ By _Sean VanLeeuwen_ 04.10.20
 
 ## Setup
 
-* Clone this repository.
+* In the terminae, type 'git clone https://github.com/ShonBurgundy/pizza-parlor.git'
 
-* Open Index.html in web browser
+* Enter the directory, with 'cd pizza-parlor'
 
 ## Known Bugs
 
-None
+No known bugs
 
 ## GitHub Pages
 
-* 
+*
 
 ## Specs
 
@@ -29,6 +29,10 @@ None
 * The program will let user select between multiple pizza toppings via checkboxes.
   * Example Input: (check)Pepperoni (check)Olive (check)Jalapeno
   * Example Output: Pepperoni, Olive, Jalapeno
+
+* The program returns different price based on user pizza type selection. 
+  * Example Input: Cheese Pizza
+  * Example Output: No extra charge
 
 * The program returns different price based on user pizza size selection. 
   * Example Input: Large Pizza

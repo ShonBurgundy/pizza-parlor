@@ -39,12 +39,12 @@ Pizza.prototype.costAdjust = function() {
 $(document).ready(function() {
   $("form#pizza-selections").submit(function(event) {
     event.preventDefault();
-    var pizzaSize = $("input:checkbox[name=size-selection]:checked").val();
+    var pizzaSize = $("input:radio[name=size-selection]:checked").val();
     var pizzaToppings = [];
     $.each($("input[name=topping-selection]:checked"), function() {
       pizzaToppings.push($(this).val());
     });
-    var pizzaType = $("input:checkbox[name=type-selection]:checked").val();
+    var pizzaType = $("input:radio[name=type-selection]:checked").val();
 
     var pizza = new Pizza(pizzaSize, pizzaToppings, pizzaType);
     pizza.costAdjust();

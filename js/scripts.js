@@ -48,7 +48,7 @@ $(document).ready(function() {
 
     var pizza = new Pizza(pizzaSize, pizzaToppings, pizzaType);
     pizza.costAdjust();
-    $("#output").html("Your total is $" + pizza.pizzaCost)
+    $("#output").html("Your total is $" + pizza.pizzaCost + ", Thank You!")
     console.log(pizza);
   })
 });

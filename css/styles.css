@@ -20,7 +20,6 @@ p {
   color: black;
   font-size: xx-large;
   padding-top: 15px;
-
 }
 
 body {
@@ -32,8 +31,10 @@ body {
   font-family: Palatino, URW Palladio L, serif;
 }
 
+.well {
+  border-style: inset;
+}
 #left, #right {
-  
   background-image: url(https://bit.ly/2y1XXGq);
 	position: fixed;
 	}

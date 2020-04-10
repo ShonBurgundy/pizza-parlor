@@ -22,7 +22,7 @@ No known bugs
 
 ## GitHub Pages
 
-*
+* https://shonburgundy.github.io/pizza-parlor/
 
 ## Specs
 

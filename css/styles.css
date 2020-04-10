@@ -1,10 +1,14 @@
 .jumbotron {
   background-image: url(https://bit.ly/2xbzChv);
   text-align: center;
+  text-decoration: underline;
   font-family: Chalkduster, fantasy;
   color: white;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  object-fit: fill;
+  border-style: dotted;
+  border-width: 4px;
+  border-color: red;
+  /* background-size: 100% 100%; */
   margin: 25px;
 }
 
@@ -15,22 +19,27 @@ p {
 #output {
   color: black;
   font-size: xx-large;
+  padding-top: 15px;
+
 }
 
 body {
-  background-color: lightgray;
+  /* background-color: lightgray; */
+  background-image: url(https://bit.ly/2V1vYzQ);
+  background-size: 100% 100%;
+  object-fit: scale-down;
   font-weight: 800;
   font-family: Palatino, URW Palladio L, serif;
 }
 
 #left, #right {
-  /* background: #060707; */
+  
   background-image: url(https://bit.ly/2y1XXGq);
 	position: fixed;
 	}
 	#left, #right {
 		top: 0; bottom: 0;
-		width: 35px;
+		width: 15px;
 		}
 		#left { left: 0; }
 		#right { right: 0; }

@@ -4,13 +4,17 @@ By _Sean VanLeeuwen_ 04.10.20
 
 ## Description
 
-* This will program will let you order a pizza with custom toppings and size then return with a price accordingly.
+* This will program will let you order a pizza with custom toppings and size then return with a price accordingly. It displays the use of constructors and prototypes.
 
 ## Setup
 
-* In the terminae, type 'git clone https://github.com/ShonBurgundy/pizza-parlor.git'
+* In the terminal, type 'git clone https://github.com/ShonBurgundy/pizza-parlor.git'
 
 * Enter the directory, with 'cd pizza-parlor'
+
+* Type 'open index.html'
+
+* Voila, order up!
 
 ## Known Bugs
 

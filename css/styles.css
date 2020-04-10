@@ -1,3 +1,37 @@
 .jumbotron {
+  background-image: url(https://bit.ly/2xbzChv);
   text-align: center;
+  font-family: Chalkduster, fantasy;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 25px;
 }
+
+p {
+  font-weight: 800;
+}
+
+#output {
+  color: black;
+  font-size: xx-large;
+}
+
+body {
+  background-color: lightgray;
+  font-weight: 800;
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+#left, #right {
+  /* background: #060707; */
+  background-image: url(https://bit.ly/2y1XXGq);
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 35px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		

@@ -11,21 +11,23 @@ Pizza.prototype.costAdjust = function() {
   if (this.pizzaSize === "large") {
     cost += 8;
   } else if (this.pizzaSize === "medium") {
-    costs += 4;
+    cost += 4;
   } //this.pizzaSize === "small" pizzaCost will be standard value
 
   if (this.pizzaType === "type") {
     cost += 8;
   }
-  for (var i = 0; i < this.length; i++) {
-  if (this === "veggie") {
+  
+  for (var i = 0; i < this.pizzaToppings.length; i++) {
+    var topping = this.pizzaToppings[i];
+  if (topping === "veggie") {
     cost += 1;
     console.log(this, cost);
   } 
-  if (this === "meat") {
+  if (topping === "meat") {
     cost += 2;
   }
-  if (this === "extra") {
+  if (topping === "extra") {
     cost += 3;
   }
 }
